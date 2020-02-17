@@ -24,7 +24,6 @@
                 font-weight: bold;
                 background:#BDEDFF;
             }
-
             .between-margin {
                 position: absolute;
                 bottom:0;
@@ -32,15 +31,45 @@
                 margin-bottom: 50px;
             }
         </style>
+        <style type="text/css">
+            div {
+                margin-bottom: 5px;
+                height:35px;
+                line-height:30px;
+                background:#f4f4f4;                
+                cursor:pointer;
+                text-indent: 10px;
+            }
+            .m_over { font-weight:bold; background:#BDEDFF }
+            .m_out { font-weight:normal; background:#f4f4f4	}
+            .act { font-weight:bold; background:#BDEDFF }
+        </style>
+        <script>
+            function over(obj){ 
+                if(obj.className != "act") {
+                    obj.className = "m_over";
+                }
+            }
+            function out(obj){ 
+                if(obj.className != "act") {
+                    obj.className = "m_out";
+                }
+            }
+            function clicks(obj){ 
+                var divs = document.getElementById("tab").getElementsByTagName("div"); 
+                for(var i=0; i<divs.length; i++){ 
+                    divs[i].className = "m_out";
+                }
+                obj.className = "act";
+            }
+        </script>
     </head>
     <body>
-        <ul>
-            <li onclick="window.open('home.html','main');">Home</li>
-            <!-- <li onclick="window.open('research.html','main');">Research</li> -->
-            <li onclick="window.open('teaching.html','main');">Teaching</li>
-            <!-- <li onclick="window.open('CV.html','main');">CV</li> -->
-            <li onclick="window.open('links.html','main');">Links</li>
-        </ul>
+        <div id="tab">
+            <div class='act' onmouseover="over(this)" onmouseout="out(this)" onclick="window.open('home.html','main');clicks(this)" id='1'>Home</div>
+            <div onmouseover="over(this)" onmouseout="out(this)" onclick="window.open('teaching.html','main');clicks(this)" id='2'>Teaching</div>
+            <div onmouseover="over(this)" onmouseout="out(this)" onclick="window.open('links.html','main');clicks(this)" id='3'>Links</div>
+        </div>
         <p class="between-margin">
             <small>
                 Last updated: <br>
