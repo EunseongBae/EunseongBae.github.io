@@ -4,6 +4,14 @@
     <title>Eunseong Bae | Home</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+       $('#content').load("home.html");
+
+    });
+    </script>
 </head>
 <body>
     <h1>Home</h1>
@@ -43,5 +51,6 @@
             </td>
         </tr>
     </table>    
+    <div id="content">It must not be shown!</div>
 </body>
 </html>
