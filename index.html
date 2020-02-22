@@ -1,107 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Eunseong Bae | Homepage</title>
-    <style>
-        * {margin: 0; padding: 0;}
-        #wrap {width: 100%;}
-        header {width: 100%; height: auto; background: #81c784;}
-        nav {clear:both; width: 100%; height: auto; background: #4a148c;}
-        main {clear:both; width: 100%; height: auto; background: #43a047;}
-    </style>
-    <link rel="stylesheet" href="style.css">
-    <!-- <script>
-        function over(obj){ 
-            if(obj.className != "act") {
-                obj.className = "m_over";
-            }
-        }
-        function out(obj){ 
-            if(obj.className != "act") {
-                obj.className = "m_out";
-            }
-        }
-        function clicks(obj){ 
-            var divs = document.getElementById("tab").getElementsByTagName("div"); 
-            for(var i=0; i<divs.length; i++){ 
-                divs[i].className = "m_out";
-            }
-            obj.className = "act";
-        }
-    </script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+---
+layout: default
+---
 
-    <script>
-        function includeHTML() {
-          var z, i, elmnt, file, xhttp;
-          /*loop through a collection of all HTML elements:*/
-          z = document.getElementsByTagName("*");
-          for (i = 0; i < z.length; i++) {
-            elmnt = z[i];
-            /*search for elements with a certain atrribute:*/
-            file = elmnt.getAttribute("w3-include-html");
-            if (file) {
-              /*make an HTTP request using the attribute value as the file name:*/
-              xhttp = new XMLHttpRequest();
-              xhttp.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                  /*remove the attribute, and call this function once more:*/
-                  elmnt.removeAttribute("w3-include-html");
-                  includeHTML();
-                }
-              }      
-              xhttp.open("GET", file, true);
-              xhttp.send();
-              /*exit the function:*/
-              return;
-            }
-          }
-        };
-        </script>
+<div class="home">
 
-</head>
+  <table border="0" bordercolor="red">
+    <tr>
+        <td height="220" style="padding-right:10px">
+            <img src="figures/esbae.jpg", alt="Eunseong Bae" height="220" style="border:1px solid black; float:left; margin:1px">
+            <img src="figures/esbae4.png", alt="Eunseong Bae" height="220" style="border:1px solid black; float:left; margin:1px">            
+        </td>
+        <td><h2>Eunseong Bae</h2>
+            <p>
+            Ph.D. Student <br/>
+            Department of Statistics <br/>
+            University of California, Davis <br/>
+            <a href="mailto:esbae@ucdavis.edu" title="esbae@ucdavis.edu">esbae@ucdavis.edu</a> <br/>
+            </p>
+            <p>
+            <a href="https://ko-kr.facebook.com/eunseong.bae.9" target="_blank" title="Facebook"><img src="figures/facebook.png" alt="Facebook" width="30"></a>
+            <a href="https://www.youtube.com/channel/UCXVeKDjlR3KYglvoSQMVGaQ" target="_blank" title="YouTube"><img src="figures/youtube.png" alt="Youtube" width="30"></a>
+            <a href="https://www.instagram.com/esbae.stat" target="_blank" title="Instagram"><img src="figures/instagram.png" alt="instagram" width="30"></a>
+            </p>
+        </td>
+    </tr>
+    <tr>
+       <td colspan="2">
+            <hr>
+            <h2>Education</h2>
+            Ph.D. Student, Statistics, University of California, Davis, 2019-Present <br/>
+            M.S., Statistics, Seoul National University, 2019 <br/>
+            B.S., Mathematical Sciences, Seoul National University, 2014 <br/>
+       </td> 
+    </tr>
+    <tr>
+        <td colspan="2">
+            <h2>Work Experience</h2>
+            Associate, Actuarial and Risk Management, Samsung Life Insurance, 2014-2016
+        </td>
+    </tr>
+</table>
 
-<body>
-    <header id="header">
-        <h1><a href="index.html" style="color:black; text-decoration:none;">Eunseong Bae | Homepage</a></h1>
-        <h6 align="right">Last Update<br/>February 18, 2020</h6>
-    </header>
-    <nav id="nav">
-        <div class="menu">
-            <li><a href="?home" target="main">Home</a></li>
-            <li><a href="?teaching">Teaching</a></li>
-            <li><a href="?links">Links</a></li>
-        </div>
-    </nav>
-    <main id="main">
-        <script type="text/javascript" charset="UTF-8">
-            document.writeln(document.location.search);
-            var temp = writeln(document.location.search).substr(1);
-            document.temp;
-        </script>
-        <!-- <object 
-            type="text/html"
-            style="overflow: hidden; width: 100%; height: 50vh;
-            border: none; margin: none; padding:none;
-            position: relative;"
-            data="home.html"> 
-            Your browser doesn’t support the object tag. 
-        </object> -->
-        <frame >
-            <frame src="main.html"/>
-        </frame>
-    </main>    
-    <!-- <script>
-        document.getElementById("content").innerHTML='<object type="text/html" data="home.html" style="overflow: hidden; width: 100%; height: 50vh;"></object>';
-    </script> -->
-
-    <div w3-include-html="home.html"></div> 
-    <div w3-include-html="index.html"></div> 
-
-
-
-</body>
-</html>
+</div>

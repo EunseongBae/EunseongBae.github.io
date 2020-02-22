@@ -1,6 +1,6 @@
-markdown/
+_site/
+.sass-cache/
 ☆old/
 ☆old2/
+☆old3/
 *.psd
-*.md
-temp.html
