@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 author: Eunseong Bae
-permalink: /cv/
+permalink: /cv
 email:
   url: mailto:esbae@ucdavis.edu
   text: esbae@ucdavis.edu
