@@ -1,5 +1,5 @@
 ---
-# type: menu
+type: menu
 layout: cv
 permalink: /cv
 order: 1
@@ -25,7 +25,7 @@ homepage:
 ## Teaching
 
 ### University of California, Davis
-- Elementary Statistics TA [Fall 2019, Winter 2020]
+- Elementary Statistics TA [Fall 2019, Winter 2020, Spring 2020]
 
 ### Seoul National University
 - Statistics TA [Spring 2017, Fall 2017]
