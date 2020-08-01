@@ -1,5 +1,5 @@
 ---
-# type: menu
+type: menu
 layout: cv
 permalink: /cv
 order: 1
@@ -30,3 +30,6 @@ homepage:
 ### Seoul National University
 - Statistics TA [Spring 2017, Fall 2017]
 - Basic Calculus Tutor [Spring 2008, Spring 2011, Spring 2012, Spring 2013]
+
+## Publications
+- Bae, E., Hur, J., Kim, J. et al. <a href="https://www.nature.com/articles/s41598-020-69575-x" target="_blank" rel="noopener noreferrer">Multi-group analysis using generalized additive kernel canonical correlation analysis.</a> Sci Rep 10, 12624 (2020)
