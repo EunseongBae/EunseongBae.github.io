@@ -32,4 +32,4 @@ homepage:
 - Basic Calculus Tutor [Spring 2008, Spring 2011, Spring 2012, Spring 2013]
 
 ## Publications
-- Bae, E., Hur, J., Kim, J. Kwon, J. Lee, J. Lee, S. Lim, C. <a href="https://www.nature.com/articles/s41598-020-69575-x" target="_blank" rel="noopener noreferrer">Multi-group analysis using generalized additive kernel canonical correlation analysis.</a> Sci Rep 10, 12624 (2020)
+- Bae, E., Hur, J., Kim, J. Kwon, J. Lee, J. Lee, S. Lim, C. <a href="https://www.nature.com/articles/s41598-020-69575-x" target="_blank" rel="noopener noreferrer">Multi-group analysis using generalized additive kernel canonical correlation analysis.</a> Scientific Reports, 10, 12624 (2020)
