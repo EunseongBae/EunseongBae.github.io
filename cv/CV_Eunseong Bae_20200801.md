@@ -20,7 +20,7 @@ homepage:
 - B.S., Mathematical Sciences, Seoul National University, 2014
 
 ## Work Experience
-- Associate, Actuarial and Risk Management, Samsung Life Insurance, 2014-2016
+- Associate, Actuarial and Risk Management Team, Samsung Life Insurance, 2014-2016
 
 ## Teaching
 
