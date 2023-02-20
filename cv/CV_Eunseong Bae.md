@@ -14,6 +14,8 @@ homepage:
   text: eunseongbae.github.io
 ---
 
+Last Updated: Feb 2023
+
 ## Education
 - Ph.D. Candidate, Statistics, University of California, Davis, CA, USA, 2019-Present
 - M.S., Statistics, Seoul National University, South Korea, 2019
