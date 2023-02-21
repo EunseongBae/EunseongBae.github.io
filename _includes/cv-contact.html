@@ -1,8 +1,25 @@
 <div id="contact-info">
-
+    <center>
     {% if page.author %}
     <i class="fi-mail" style="margin-left:1em"></i>
-    <h1>{{ page.author }}</h1>
+    <font size="8">{{ page.author }}</font>
+    {% endif %}
+    <br />
+
+    {% if page.position %}
+    <i class="fi-position"></i>
+    {{ page.position }},
+    {% endif %}
+    
+    {% if page.affiliation %}
+    <i class="fi-affiliation"></i>
+     {{ page.affiliation }}
+    {% endif %}
+    <br />
+
+    {% if page.email %}
+    <i class="fi-mail" style="margin-left:1em"></i>
+    <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}</a>
     {% endif %}
 
     {% if page.homepage %}
@@ -10,14 +27,15 @@
     <a href="{{ page.homepage.url }}" style="margin-left:0.5em"> {{ page.homepage.text }}</a>
     {% endif %}
 
-    {% if page.email %}
-    <i class="fi-mail" style="margin-left:1em"></i>
-    <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}</a>
-    {% endif %}
-
-    {% if page.phone %}
+    <!-- {% if page.phone %}
     <i class="fi-telephone" style="margin-left:1em"></i>
     {{ page.phone }}
-    {% endif %}
+    {% endif %} -->
 
+    {% if page.date %}
+    <i class="fi-date" style="margin-left:1em"></i>
+    Updated: {{ page.date }}
+    {% endif %}
+    </center>
+<br />
 </div>

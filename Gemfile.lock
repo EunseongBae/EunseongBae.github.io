@@ -71,15 +71,18 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     erubi (1.12.0)
+    eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
+    ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     globalid (1.1.0)
       activesupport (>= 5.0)
+    google-protobuf (3.22.0-x64-mingw-ucrt)
     google-protobuf (3.22.0-x64-mingw32)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
@@ -142,6 +145,8 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
+    nokogiri (1.13.10-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.13.10-x64-mingw32)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -188,6 +193,8 @@ GEM
     rouge (3.30.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
+    sass-embedded (1.58.3-x64-mingw-ucrt)
+      google-protobuf (~> 3.21)
     sass-embedded (1.58.3-x64-mingw32)
       google-protobuf (~> 3.21)
     sawyer (0.9.2)
@@ -214,6 +221,7 @@ GEM
     zeitwerk (2.6.7)
 
 PLATFORMS
+  x64-mingw-ucrt
   x64-mingw32
 
 DEPENDENCIES
