@@ -1,6 +1,5 @@
 # Site settings
-plugins:
-  - jekyll-feed
+plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-include-cache', 'jekyll-gist']
 title: Home
 email: esbae@ucdavis.edu
 author: Eunseong Bae
