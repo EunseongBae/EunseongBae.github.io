@@ -12,6 +12,9 @@ author: Eunseong Bae
 # url: "http://jekyll.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  EunseongBae
+name: Eunseong Bae
+description: Eunseong Bae's homepage
+url: https://eunseongbae.github.io/
 
 # Build settings
 markdown: kramdown
