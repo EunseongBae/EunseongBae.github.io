@@ -18,7 +18,7 @@ url: https://eunseongbae.github.io
 # gems
 gems:
   - jekyll-sitemap
-
+  - jekyll-pdf
 whitelist:
   - jekyll-sitemap
 

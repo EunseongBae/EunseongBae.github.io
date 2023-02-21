@@ -15,7 +15,8 @@ homepage:
   text: eunseongbae.github.io
 
 position: Ph.D. Candidate
-affiliation: Department of Statistics, Davis, CA
+affiliation1: Department of Statistics
+affiliation2: University of California, Davis
 date: Feb 21, 2023
 ---
 

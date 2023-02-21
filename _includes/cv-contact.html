@@ -11,12 +11,17 @@
     {{ page.position }},
     {% endif %}
     
-    {% if page.affiliation %}
+    {% if page.affiliation1 %}
     <i class="fi-affiliation"></i>
-     {{ page.affiliation }}
+     {{ page.affiliation1 }}
     {% endif %}
     <br />
 
+    {% if page.affiliation2 %}
+    <i class="fi-affiliation"></i>
+     {{ page.affiliation2 }}
+    {% endif %}
+    <br />
     {% if page.email %}
     <i class="fi-mail" style="margin-left:1em"></i>
     <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}</a>
