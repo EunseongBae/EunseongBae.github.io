@@ -1,4 +1,6 @@
 # Site settings
+plugins:
+  - jekyll-feed
 title: Home
 email: esbae@ucdavis.edu
 author: Eunseong Bae
