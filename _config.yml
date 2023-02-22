@@ -1,5 +1,5 @@
 # Site settings
-plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-include-cache', 'jekyll-gist']
+plugins: ['jekyll-sitemap']
 title: Home
 email: esbae@ucdavis.edu
 author: Eunseong Bae
@@ -18,7 +18,6 @@ url: https://eunseongbae.github.io
 # gems
 gems:
   - jekyll-sitemap
-  - jekyll-pdf
 whitelist:
   - jekyll-sitemap
 

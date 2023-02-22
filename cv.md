@@ -2,7 +2,7 @@
 type: menu
 layout: cv
 permalink: /cv
-order: 1
+order: 2
 
 title: CV
 author: Eunseong Bae

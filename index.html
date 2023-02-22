@@ -1,9 +1,59 @@
 ---
+type: menu
 layout: default
+title: Home
+order: 1
 ---
 
-<div class="home">
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Eunseong Bae | Home</title>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        ul {
+            /* text-indent: 10px; */
+            margin:0;
+            padding:20px;                
+            /* list-style:none; */
+        }
+    </style>
+</head>
 
+{% assign cv-info = site.pages | where: "path", "cv.md" | first %}
+
+<div class="home">
+    <h1 class="post-title">Home</h1>
+    <table border="0" bordercolor="red">
+    <tr style="vertical-align:top">
+        <td height="220" style="padding-right:10px">
+            <img src="figures/esbae.jpg", alt="Eunseong Bae" height="200" style="border:1px solid black; float:left; margin:1px">
+            <img src="figures/esbae4.png", alt="Eunseong Bae" height="200" style="border:1px solid black; float:left; margin:1px">            
+        </td>
+        <td>
+            <h2>{{ cv-info.author }}</h2>
+            <p>
+            {{ cv-info.position }} <br/>
+            {{ cv-info.affiliation1 }} <br/>
+            {{ cv-info.affiliation2 }} <br/>
+            <a href="{{ cv-info.email.url }}" >{{ cv-info.email.text }}</a> <br/>
+            </p>
+            <p>
+            <a href="https://www.facebook.com/eunseong.bae.9" target="_blank" title="Facebook"><img src="figures/facebook.png" alt="Facebook" width="30"></a>
+            <a href="https://www.youtube.com/channel/UCXVeKDjlR3KYglvoSQMVGaQ" target="_blank" title="YouTube"><img src="figures/youtube.png" alt="Youtube" width="30"></a>
+            <a href="https://www.instagram.com/eunseong__bae" target="_blank" title="Instagram"><img src="figures/instagram.png" alt="instagram" width="30"></a>
+            <a href="https://github.com/EunseongBae" target="_blank" title="GitHub"><img src="figures/github.png" alt="github" width="30"></a>
+            </p>
+        </td>
+    </tr>
+</table>
+
+
+
+
+<!-- div class="home">
     <h1 class="post-title">Home</h1>
     <table border="0" bordercolor="red">
     <tr style="vertical-align:top">
@@ -27,7 +77,7 @@ layout: default
             </p>
         </td>
     </tr>
-    <!-- <tr>
+    <tr>
        <td colspan="2">            
             <h2>Education</h2>
             Ph.D. Student, Statistics, University of California, Davis, 2019-Present <br/>
@@ -40,7 +90,7 @@ layout: default
             <h2>Work Experience</h2>
             Associate, Actuarial and Risk Management, Samsung Life Insurance, 2014-2016
         </td>
-    </tr> -->
-</table>
+    </tr> 
+</table> -->
 
 </div>
