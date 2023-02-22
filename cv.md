@@ -6,6 +6,7 @@ order: 2
 
 title: CV
 author: Eunseong Bae
+author_kor : 배은성
 
 email:
   url: mailto:esbae@ucdavis.edu
