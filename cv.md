@@ -18,7 +18,7 @@ homepage:
 position: Ph.D. Candidate
 affiliation1: Department of Statistics
 affiliation2: University of California, Davis
-date: Feb 21, 2023
+date: Jun 9, 2023
 ---
 
 ## Education
@@ -51,4 +51,5 @@ date: Feb 21, 2023
 
 ## Awards
 
+- Teaching Recognition Award 2022-23 by Department of Statistics, University of California, Davis, 2023
 - Teaching Recognition Award 2020-21 by Department of Statistics, University of California, Davis, 2021
