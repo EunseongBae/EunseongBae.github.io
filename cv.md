@@ -18,7 +18,7 @@ homepage:
 position: Ph.D. Candidate
 affiliation1: Department of Statistics
 affiliation2: University of California, Davis
-date: Jun 9, 2023
+date: Sep 11, 2023
 ---
 
 ## Education
@@ -36,6 +36,7 @@ date: Jun 9, 2023
 - University of California, Davis
   - Data and Web Technologies for Data Analysis TA <!-- [Winter 2022, Winter 2023] -->
   - Fundamentals of Statistical Data Science TA <!-- [Winter 2022] -->
+  - Mathematical Statistics TA <!-- [Spring 2021, Spring 2022] -->
   - Probability Theory TA <!-- [Spring 2021, Spring 2022] -->
   - Applied Statistics for Biological Sciences TA <!-- [Fall 2021] -->
   - Elementary Statistics TA <!-- [Fall 2019, Winter 2020, Spring 2020, Fall 2020, Winter 2021, Fall 2022] -->
