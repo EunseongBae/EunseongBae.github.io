@@ -95,7 +95,7 @@ GEM
     forwardable-extended (2.6.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (3.22.0)
+    google-protobuf (3.25.5-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
