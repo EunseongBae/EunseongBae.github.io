@@ -1,0 +1,11 @@
+\begin{center} 
+{\Huge
+Eunseong Bae} \\[1em] 
+Ph.D. Candidate, Department of Statistics \\ 
+University of California, Davis \\ 
+\href{mailto:esbae@ucdavis.edu}{esbae@ucdavis.edu} \quad 
+\href{https://eunseongbae.github.io}{eunseongbae.github.io} \quad 
+Updated: Sep 11, 2023
+\end{center}
+ \vspace{1em} 
+%%%%%%%%%%%%%%%%%%%%
