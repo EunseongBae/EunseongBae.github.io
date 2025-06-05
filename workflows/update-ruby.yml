@@ -1,0 +1,26 @@
+# .github/workflows/update-ruby.yml
+name: Update Ruby Version
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # weekly on Sunday
+  workflow_dispatch:
+
+jobs:
+  update-ruby:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest Ruby version
+        id: ruby
+        run: |
+          latest=$(curl -s https://www.ruby-lang.org/en/downloads/ | grep -oP 'The current stable version is \K[0-9]+\.[0-9]+\.[0-9]+' | head -n 1)
+          echo "latest_ruby=$latest" >> $GITHUB_OUTPUT
+
+      - name: Compare and update Ruby version
+        run: |
+          latest="${{ steps.ruby.outputs.latest_ruby }}"
+          echo "Latest Ruby: $latest"
+          # You can replace this with logic to update .ruby-version or Gemfile
+          # Then commit & push or open a PR
