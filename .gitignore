@@ -6,5 +6,6 @@ Probability Theory/
 _site/
 cv_pdf/
 .jekyll-cache/
-
+cv_generator
+_figures_old
 *.psd

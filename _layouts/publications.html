@@ -5,7 +5,7 @@ pdf: true
 
 <head>
   <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Publications</title>
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
   <!-- <link href="media/cv-screen.css" type="text/css" rel="stylesheet" media="screen">
   <link href="media/cv-print.css" type="text/css" rel="stylesheet" media="print">
@@ -18,15 +18,16 @@ pdf: true
 </head>
 
 <div id="info">
-  <h1 class="post-title">Curriculum Vitae</h1>
-  <a href="{{ site.url }}/downloads/CV_{{ site.author }}.pdf" target="_blank"><p style="text-align:right;">DOWNLOAD</p></a>
-  <!-- {{ site.url }}/download/file.pdf -->
-  <hr><br />
+  <h1 class="post-title">Publications</h1>
+  {% if page.date %}
+  <!-- <i class="fi-date" style="margin-left:1em"></i> -->
+  Updated: {{ page.date }}
+  {% endif %}
+  <br><br>
 </div>
 
 <div id="main">
-    <div id="content">
-        {% include cv-contact.html %}        
+    <div id="content">   
         {{ content }}
     </div>
 </div>
