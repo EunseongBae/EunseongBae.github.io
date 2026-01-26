@@ -9,3 +9,4 @@ cv_pdf/
 cv_generator
 _figures_old
 *.psd
+Gemfile.lock
