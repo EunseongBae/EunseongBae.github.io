@@ -1,12 +1,8 @@
 .sass-cache/
 .jekyll-cache/
-☆old/
-linear algebra/
-Probability Theory/
 _site/
-cv_pdf/
-.jekyll-cache/
-cv_generator
 _figures_old
-*.psd
 Gemfile.lock
+*.psd
+
+cv_generator/
