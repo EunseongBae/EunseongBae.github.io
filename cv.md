@@ -18,12 +18,12 @@ homepage:
 position: Ph.D. Candidate
 affiliation1: Department of Statistics
 affiliation2: University of California, Davis
-date: Jan 25, 2026
+date: Feb 2, 2026
 ---
 
 ## Research interests
 
-- Manifold learning, Spectral analysis of random matrices, Asymptotic theory
+- Manifold learning, Spectral analysis of random matrices, Asymptotic statistics
 
 ## Education
 
@@ -46,7 +46,8 @@ date: Jan 25, 2026
 ## Publications
 
 - Preprints:
-  - **Bae, E.**, Polonik, W., 2026. Kernel smoothing on manifolds. Available at <a href="https://arxiv.org/abs/2601.16777" target="_blank" rel="noopenr noreferrer">https://arxiv.org/abs/2601.16777</a>
+  - **Bae, E.**, Polonik, W., 2026. Asymptotic expansions for spectral convergence of compact self-adjoint operators on general spectral subsets, with application to kernel Gram matrices. <a href="https://arxiv.org/abs/2602.00999" target="_blank" rel="noopenr noreferrer">https://arxiv.org/abs/2602.00999</a>
+  - **Bae, E.**, Polonik, W., 2026. Kernel smoothing on manifolds. <a href="https://arxiv.org/abs/2601.16777" target="_blank" rel="noopenr noreferrer">https://arxiv.org/abs/2601.16777</a>
 
 - Published:
   - Kim, J., **Bae, E.**, Kim, Y., Lim, C.Y., Hur, J.-W., Kwon, J.S., Lee, S.-H., 2022. A robust multivariate structure of interindividual covariation between psychosocial characteristics and arousal responses to visual narratives. PLOS ONE 17, e0263817. <a href="https://doi.org/10.1371/journal.pone.0263817" target="_blank" rel="noopenr noreferrer">https://doi.org/10.1371/journal.pone.0263817</a>
