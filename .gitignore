@@ -25,3 +25,4 @@ pnpm-debug.log*
 
 # VSCODE
 .vscode/
+vscode_ws.code-workspace
