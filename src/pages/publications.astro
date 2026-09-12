@@ -1,0 +1,30 @@
+---
+import * as cv from "../content/cv.md";
+import fs from "node:fs";
+import { marked } from "marked";
+import Layout from "../layouts/Layout.astro";
+
+const content = fs.readFileSync(cv.file, "utf-8");
+const match = content.match(
+  /<!-- PUBLICATIONS_START -->([\s\S]*?)<!-- PUBLICATIONS_END -->/
+);
+const publicationsMarkdown = match?.[1] ?? "";
+// const publicationsHtml = await marked.parse(publicationsMarkdown);
+const publicationsHtml = (await marked.parse(publicationsMarkdown))
+  .replace(/<a\b(?![^>]*\btarget=)[^>]*>/gi, (tag) =>
+    tag.replace(/>$/, ' target="_blank" rel="noopener noreferrer">')
+  );
+---
+
+<Layout title="Publications">
+    <div id="info">
+        <h1 class="post-title">Publications</h1>
+        {cv.frontmatter.date && (
+        <>
+        <i class="fi-date" style="margin-left: 0em"></i>
+        Updated: {cv.frontmatter.date}
+        </>
+        )}
+        <div class="markdown-publications" set:html={publicationsHtml} />
+    </div>
+</Layout>

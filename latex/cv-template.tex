@@ -1,0 +1,48 @@
+% ===== Preamble =====
+\documentclass[11pt]{article}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, % Color links instead of ugly boxes
+  urlcolor     = blue, % Color for external hyperlinks
+  linkcolor    = blue, % Color of internal links
+  citecolor    = red % Color of citations
+}
+\usepackage[top=1.5cm,bottom=2.5cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage{titlesec}
+\titlespacing*{\subsection}{0pt}{2.5ex}{0.25em}
+
+\setlist[itemize]{
+  leftmargin=1.2em,
+  itemsep=0pt,
+  topsep=0pt,
+  parsep=0pt
+}
+
+\setlength{\parindent}{0pt}
+
+\providecommand{\tightlist}{}
+% \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% ==== Document ====
+\begin{document}
+
+\raggedright
+\fontfamily{ppl}\selectfont
+\thispagestyle{empty}
+
+\begin{center}
+  {\Huge $author$ } \\[.75em]
+  % \vphantom{$position$} \\ 
+  \href{$email.url$}{$email.text$} \quad 
+  \href{$homepage.url$}{$homepage.text$} \quad
+  Updated: $date$ 
+\end{center}
+
+$body$
+
+\end{document}

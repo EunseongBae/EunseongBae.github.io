@@ -1,0 +1,8 @@
+from: markdown
+to: latex
+
+template: latex/cv-template.tex
+output-file: latex/cv.tex
+
+filters:
+  - latex/cv-lua.lua

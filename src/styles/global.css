@@ -1,0 +1,130 @@
+/* 1. Tokens */
+:root {
+    --font-family: Helvetica, Arial, sans-serif;
+    --font-size: 16px;
+    --font-color: black;
+    --background-color: white;
+    --link-color: #2a7ae2;
+    --link-hover-color: #1a5bb8;
+    --line-height: 1.5;
+    --content-width: 1000px;
+    --content-padding: 20px;
+    --spacing-unit: 30px;
+}
+
+/* 2. Resets*/ 
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. Global Styles */
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: calc(var(--spacing-unit) / 2);
+    font-weight: 400;
+}
+
+html {
+    scrollbar-gutter: stable;
+    width: min(
+        var(--content-width),
+        calc(100% - var(--content-padding) * 2)
+    );
+    margin: 0 auto;
+    max-width: var(--content-width);
+    min-width: 0;
+}
+
+header,
+nav,
+main {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--font-color);
+    line-height: var(--line-height);
+}
+
+main li {
+    margin-left: -1.25rem;
+}
+main li li {
+    margin-left: -1.75rem;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* 4. Navigation */
+.site-title {
+    font-size: 26px;
+    color: black;
+
+    &:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    &:hover {
+        color: black;
+    }
+}
+
+nav {
+    display: table;
+    border-collapse: collapse;
+}
+
+nav a {
+    display: table-cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7.5px;
+    padding-right: 40px;
+
+    font-size: 16px; ; text-transform: uppercase;
+    text-align: left;
+    text-decoration: none;
+
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #007acc;
+    text-decoration: none;
+}
+
+.navbar {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* 5. Markdown */
+.markdown-cv h2 {
+  margin-bottom: 0;
+}
+
+.markdown-cv ul {
+  margin-top: 0;
+}
+
+.markdown-cv ul > li {
+  margin-top: 0;
+}
+
+.markdown-cv p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-publications p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,80 @@
+---
+import * as cv from "../content/cv.md";
+const { frontmatter } = cv;
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Home">
+    <div id="info">
+		<h1 class="post-title">Home</h1>
+		<table border="0">
+			<tr style="vertical-align: top;">
+				<td style="vertical-align: top;">
+					<img src="photo-esbae.png" alt={frontmatter.author} style="width: 150px; height: auto;"/>
+				</td>
+				<td style="padding-left: 20px; vertical-align: top;">
+					<div style="margin-top: 0;">{frontmatter.author} ({frontmatter.author_kor})</div>
+					<!-- <h3 style="margin-top: 0;">{frontmatter.author} ({frontmatter.author_kor})</h3> -->
+					<div>Independent Researcher</div>
+					{frontmatter.position && (
+					<div>{frontmatter.position}</div>
+					)}
+
+					{frontmatter.affiliation1 && (
+					<div>{frontmatter.affiliation1}</div>
+					)}
+
+					{frontmatter.affiliation2 && (
+					<div>{frontmatter.affiliation2}</div>
+					)}
+
+					{frontmatter.email && (
+					<div>
+						<a href={frontmatter.email.url}>
+						{frontmatter.email.text}
+						</a>
+					</div>
+					)}
+				</td>
+			</tr>
+		</table>
+	</div>
+</Layout>
+
+<!-- <html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>{frontmatter.author} | Home</title>
+</head>
+
+<body>
+	<Navbar />
+	<div id="info">
+		<img src="/images/esbae.png" alt={frontmatter.author} />
+
+		<h1>{frontmatter.author}</h1>
+
+		{frontmatter.position && (
+		<div>{frontmatter.position}</div>
+		)}
+
+		{frontmatter.affiliation1 && (
+		<div>{frontmatter.affiliation1}</div>
+		)}
+
+		{frontmatter.affiliation2 && (
+		<div>{frontmatter.affiliation2}</div>
+		)}
+
+		{frontmatter.email && (
+		<div>
+			<a href={frontmatter.email.url}>
+			{frontmatter.email.text}
+			</a>
+		</div>
+		)}
+	</div>
+</body>
+
+</html> -->

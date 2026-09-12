@@ -1,0 +1,17 @@
+---
+import * as cv from "../content/cv.md";
+const { frontmatter } = cv;
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Links">
+    <div id="info">
+        <h1 class="post-title">Links</h1>
+    </div>
+    <div style="margin-top: 20px;">
+        <ul>
+            <li><a href="https://statistics.ucdavis.edu" target="_blank">Department of Statistics, University of California, Davis</a></li>
+            <li><a href="https://stat.snu.ac.kr/en/" target="_blank">Department of Statistics, Seoul National University</a></li>
+        </ul>
+    </div>
+</Layout>
