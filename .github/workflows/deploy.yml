@@ -48,7 +48,7 @@ jobs:
         run: npm ci
 
       - name: Generate CV
-        run: node build-cv.mjs
+        run: node scripts/build-cv.mjs
 
       - name: Build Astro
         run: npm run build
