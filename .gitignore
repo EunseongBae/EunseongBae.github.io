@@ -31,3 +31,4 @@ latex/*.aux
 latex/*.fls
 latex/*.out
 latex/*.pdf
+latex/*.log
