@@ -26,3 +26,8 @@ pnpm-debug.log*
 # VSCODE
 .vscode/
 vscode_ws.code-workspace
+
+latex/*.aux
+latex/*.fls
+latex/*.out
+latex/*.pdf
