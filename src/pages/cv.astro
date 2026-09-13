@@ -7,7 +7,7 @@ import * as test from "../content/test.md";
 ---
 
 <Layout title="CV">
-    <div id="info">
+    <div id="cv-title">
         <h1 class="post-title" style="display: inline;">Curriculum Vitae</h1>
         <a href="/cv-esbae.pdf" target="_blank" style="margin-left: 20px;">[DOWNLOAD]</a>
         <hr style="margin-top: 10px; margin-bottom: 0px;"><br />
@@ -16,7 +16,6 @@ import * as test from "../content/test.md";
         <center>
             {frontmatter.author && (
             <>
-                <i class="fi-mail"></i>
                 <font size="8">{frontmatter.author}</font>
             </>
             )}
@@ -24,50 +23,50 @@ import * as test from "../content/test.md";
 
             {frontmatter.position && (
             <>
-                <i class="fi-position"></i>
                 {frontmatter.position}
             </>
             )}
             {frontmatter.affiliation1 && (
             <>
-                <i class="fi-affiliation"></i>
                 , {" "}{frontmatter.affiliation1}
                 <br />
             </>
             )}            
             {frontmatter.affiliation2 && (
             <>
-                <i class="fi-affiliation"></i>
                 {frontmatter.affiliation2} <br />
             </>
             )}
 
             {frontmatter.email && (
             <>
-                <i class="fi-mail" style="margin-left: 1em"></i>
+                <span class="contact-item">
                 <a
                 href={frontmatter.email.url}
                 style="margin-left: 0.5em"
                 >
                 {frontmatter.email.text}
                 </a>
+                </span>
             </>
             )}
             {frontmatter.homepage && (
             <>
-                <i class="fi-home" style="margin-left: 1em"></i>
+                <span class="contact-item">
                 <a
                 href={frontmatter.homepage.url}
                 style="margin-left: 0.5em"
                 >
                 {frontmatter.homepage.text}
                 </a>
+                </span>
             </>
             )}
             {frontmatter.date && (
             <>
-                <i class="fi-date" style="margin-left: 1em"></i>
+                <span class="contact-item">
                 Updated: {frontmatter.date}
+                </span>
             </>
             )}
         </center>
