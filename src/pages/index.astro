@@ -35,46 +35,17 @@ import Layout from "../layouts/Layout.astro";
 						</a>
 					</div>
 					)}
+
+					<div style="display: flex; align-items: center; gap: 2px;">
+						<a href="https://orcid.org/0000-0003-1918-4252" target="_blank" rel="noopener noreferrer" title="ORCID">
+							<img src="svg_ORCID.svg" alt="ORCID" style="width: 25px; height: 25px;"/>
+						</a>
+						<a href="https://www.youtube.com/@eunseongbae5658" target="_blank" rel="noopener noreferrer" title="YouTube">
+							<img src="svg_YouTube.svg" alt="YouTube" style="width: 25px; height: 25px; transform: scaleY(1.4)"/>
+						</a>
+					</div>
 				</td>
 			</tr>
 		</table>
 	</div>
 </Layout>
-
-<!-- <html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	<title>{frontmatter.author} | Home</title>
-</head>
-
-<body>
-	<Navbar />
-	<div id="info">
-		<img src="/images/esbae.png" alt={frontmatter.author} />
-
-		<h1>{frontmatter.author}</h1>
-
-		{frontmatter.position && (
-		<div>{frontmatter.position}</div>
-		)}
-
-		{frontmatter.affiliation1 && (
-		<div>{frontmatter.affiliation1}</div>
-		)}
-
-		{frontmatter.affiliation2 && (
-		<div>{frontmatter.affiliation2}</div>
-		)}
-
-		{frontmatter.email && (
-		<div>
-			<a href={frontmatter.email.url}>
-			{frontmatter.email.text}
-			</a>
-		</div>
-		)}
-	</div>
-</body>
-
-</html> -->
