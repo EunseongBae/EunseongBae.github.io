@@ -10,28 +10,26 @@ homepage:
   url: https://eunseongbae.github.io
   text: eunseongbae.github.io
 
-# position: Ph.D. Candidate
-# affiliation1: Department of Statistics
-# affiliation2: University of California, Davis
+position: Postdoctoral Researcher
+affiliation1: Research Institute of Applied Statistics
+affiliation2: Sungkyunkwan University
 
-# position: Independent researcher
-
-date: Sep 11, 2026
+date: Nov 2, 2026
 ---
 
-## Research interests
+## Research Interests
 
 - Manifold learning, Operator spectral theory, Asymptotic statistics
 
+## Academic Positions
+
+- Postdoctoral Researcher, Research Institute of Applied Statistics, Sungkyunkwan University, South Korea, 2026–Present
+
 ## Education
 
-- Ph.D., Statistics, University of California, Davis, CA, USA, 2026
-- M.S., Statistics, Seoul National University, South Korea, 2019
+- Ph.D., Statistics, University of California, Davis, CA, USA, 2026 (Advisor: Wolfgang Polonik)
+- M.S., Statistics, Seoul National University, South Korea, 2019 (Advisor: Chae Young Lim)
 - B.S., Mathematical Sciences, Seoul National University, South Korea, 2014
-
-## Work Experience
-
-- Associate, Actuarial and Risk Management Team, Samsung Life Insurance, 2014-2016
 
 ## Publications
 <!-- PUBLICATIONS_START -->
@@ -44,6 +42,10 @@ date: Sep 11, 2026
 - Published:
   - Kim, J., **Bae, E.**, Kim, Y., Lim, C.Y., Hur, J.-W., Kwon, J.S., Lee, S.-H., 2022. A robust multivariate structure of interindividual covariation between psychosocial characteristics and arousal responses to visual narratives. PLOS ONE 17, e0263817. DOI: [10.1371/journal.pone.0263817](https://doi.org/10.1371/journal.pone.0263817).
   - **Bae, E.**, Hur, J.-W., Kim, J., Kwon, J.S., Lee, J., Lee, S.-H., Lim, C.Y., 2020. Multi-group analysis using generalized additive kernel canonical correlation analysis. Sci Rep 10, 12624. DOI: [10.1038/s41598-020-69575-x](https://doi.org/10.1038/s41598-020-69575-x).
+
+- Theses:
+  - **Bae, E.**, 2026. First-order Asymptotic Theory for Spectral Convergence of Graph Laplacians on Manifolds. Ph.D. Dissertation, University of California, Davis. Link: [escholarship.org/uc/item/3nd8w4qd](https://escholarship.org/uc/item/3nd8w4qd).
+  - **Bae, E.**, 2019. Multi-group Analysis using Generalized Additive Kernel Canonical Correlation Analysis. M.S. thesis, Seoul National University. Link: [s-space.snu.ac.kr/handle/10371/161659](https://s-space.snu.ac.kr/handle/10371/161659).
 <!-- PUBLICATIONS_END -->
 
 ## Teaching Experience
@@ -53,6 +55,10 @@ date: Sep 11, 2026
   - Undergraduate: Elementary Statistics, Mathematical Statistics, Applied Statistics
 - Teaching Assistant, Seoul National University, 2017
   - Undergraduate: Elementary Statistics
+
+## Work Experience
+
+- Associate, Actuarial and Risk Management Team, Samsung Life Insurance, South Korea, 2014-2016
 
 ## Professional Service
 

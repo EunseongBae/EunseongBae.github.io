@@ -25,16 +25,16 @@ import * as test from "../content/test.md";
             <>
                 {frontmatter.position}
             </>
-            )}
+            <br />)}
             {frontmatter.affiliation1 && (
             <>
-                , {" "}{frontmatter.affiliation1}
-                <br />
+                {" "}{frontmatter.affiliation1}
+                
             </>
             )}            
             {frontmatter.affiliation2 && (
             <>
-                {frontmatter.affiliation2} <br />
+                , {frontmatter.affiliation2} <br />
             </>
             )}
 
