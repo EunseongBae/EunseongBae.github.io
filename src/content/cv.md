@@ -4,8 +4,8 @@ author: Eunseong Bae
 author_kor : 배은성
 
 email:
-  url: mailto:esbae.stat@gmail.com
-  text: esbae.stat@gmail.com
+  url: mailto:esbae@skku.edu
+  text: esbae@skku.edu
 homepage:
   url: https://eunseongbae.github.io
   text: eunseongbae.github.io
