@@ -14,7 +14,7 @@ position: Postdoctoral Researcher
 affiliation1: Research Institute of Applied Statistics
 affiliation2: Sungkyunkwan University
 
-date: Nov 2, 2026
+date: Nov 10, 2026
 ---
 
 ## Research Interests
@@ -33,9 +33,10 @@ date: Nov 2, 2026
 
 ## Publications
 <!-- PUBLICATIONS_START -->
-- Working papers:
-  - **Bae, E.**, Polonik, W., 2026. First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds. Manuscript under final review.
+<!-- - Working papers:
+  - **Bae, E.**, Polonik, W., 2026. First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds. Manuscript under final review. -->
 - Preprints:  
+  - **Bae, E.**, Polonik, W., 2026. First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds. arXiv: [2611.13623](https://arxiv.org/abs/2611.13623)
   - **Bae, E.**, Polonik, W., 2026. First-order asymptotic expansions for spectral convergence of compact self-adjoint operators on general spectral subsets, with application to kernel Gram matrices. arXiv: [2602.00999](https://arxiv.org/abs/2602.00999).
   - **Bae, E.**, Polonik, W., 2026. Kernel smoothing on manifolds. arXiv: [2601.16777](https://arxiv.org/abs/2601.16777).
 
