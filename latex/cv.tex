@@ -28,12 +28,22 @@
 \providecommand{\tightlist}{}
 % \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyfoot[C]{\thepage/\pageref{LastPage}}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
 % ==== Document ====
 \begin{document}
 
 \raggedright
 \fontfamily{ppl}\selectfont
-\thispagestyle{empty}
+% \thispagestyle{plain}
 
 \begin{center}
   {\Huge Eunseong Bae } \\[.75em]
@@ -41,7 +51,7 @@
   Research Institute of Applied Statistics, Sungkyunkwan University \\
   \href{mailto:esbae@skku.edu}{esbae@skku.edu} \quad 
   \href{https://eunseongbae.github.io}{eunseongbae.github.io} \quad
-  Updated: Nov 10, 2026 
+  Updated: Nov 13, 2026 
 \end{center}
 
 \subsection*{Research Interests}
@@ -126,13 +136,11 @@
   \item
     \textbf{Bae, E.}, 2026. First-order Asymptotic Theory for Spectral
     Convergence of Graph Laplacians on Manifolds. Ph.D.~Dissertation,
-    University of California, Davis. Link:
-    \href{https://escholarship.org/uc/item/3nd8w4qd}{escholarship.org/uc/item/3nd8w4qd}.
+    University of California, Davis.
   \item
     \textbf{Bae, E.}, 2019. Multi-group Analysis using Generalized
     Additive Kernel Canonical Correlation Analysis. M.S. thesis, Seoul
-    National University. Link:
-    \href{https://s-space.snu.ac.kr/handle/10371/161659}{s-space.snu.ac.kr/handle/10371/161659}.
+    National University.
   \end{itemize}
 \end{itemize}
 
@@ -176,6 +184,19 @@
 \tightlist
 \item
   Ad Hoc Reviewer, IEEE Transactions on Information Theory, 2026
+\end{itemize}
+
+\subsection*{Presentations}
+
+\begin{itemize}
+\item
+  Nov 13, 2026. ``First-order asymptotic theory for spectral convergence
+  of graph Laplacians on manifolds.'' \emph{Seminar presentation},
+  Statistics Seminar, Sungkyunkwan University, South Korea.
+\item
+  Sep 23--24, 2024. ``Two sample testing for isometry of two
+  manifolds.'' \emph{Poster presentation}, Foundations of Data Science
+  and Machine Learning at UCD4IDS, University of California, Davis, USA.
 \end{itemize}
 
 \subsection*{Awards}

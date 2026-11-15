@@ -20,14 +20,29 @@ async function main() {
     input,
   ]);
 
-  console.log("Compiling CV PDF...");
+  console.log("Compiling CV PDF (1/2)...");
 
-  await exec("pdflatex", [
+  const latexArgs = [
     "-interaction=nonstopmode",
     "-halt-on-error",
     "-output-directory=latex",
     texOutput,
-  ]);
+  ];
+
+  await exec("pdflatex", latexArgs);
+
+  console.log("Compiling CV PDF (2/2)...");
+
+  await exec("pdflatex", latexArgs);
+
+  // console.log("Compiling CV PDF...");
+
+  // await exec("pdflatex", [
+  //   "-interaction=nonstopmode",
+  //   "-halt-on-error",
+  //   "-output-directory=latex",
+  //   texOutput,
+  // ]);
 
   console.log("Copying CV PDF...");
 

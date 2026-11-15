@@ -11,3 +11,11 @@ function Header(el)
     return pandoc.RawBlock("latex", "\\subsection*{" .. text .. "}")
   end
 end
+
+function Span(el)
+  if el.classes:includes("web-only") then
+    return {}
+  end
+
+  return el
+end

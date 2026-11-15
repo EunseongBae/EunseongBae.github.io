@@ -14,7 +14,7 @@ position: Postdoctoral Researcher
 affiliation1: Research Institute of Applied Statistics
 affiliation2: Sungkyunkwan University
 
-date: Nov 10, 2026
+date: Nov 13, 2026
 ---
 
 ## Research Interests
@@ -33,8 +33,6 @@ date: Nov 10, 2026
 
 ## Publications
 <!-- PUBLICATIONS_START -->
-<!-- - Working papers:
-  - **Bae, E.**, Polonik, W., 2026. First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds. Manuscript under final review. -->
 - Preprints:  
   - **Bae, E.**, Polonik, W., 2026. First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds. arXiv: [2611.13623](https://arxiv.org/abs/2611.13623)
   - **Bae, E.**, Polonik, W., 2026. First-order asymptotic expansions for spectral convergence of compact self-adjoint operators on general spectral subsets, with application to kernel Gram matrices. arXiv: [2602.00999](https://arxiv.org/abs/2602.00999).
@@ -45,8 +43,8 @@ date: Nov 10, 2026
   - **Bae, E.**, Hur, J.-W., Kim, J., Kwon, J.S., Lee, J., Lee, S.-H., Lim, C.Y., 2020. Multi-group analysis using generalized additive kernel canonical correlation analysis. Sci Rep 10, 12624. DOI: [10.1038/s41598-020-69575-x](https://doi.org/10.1038/s41598-020-69575-x).
 
 - Theses:
-  - **Bae, E.**, 2026. First-order Asymptotic Theory for Spectral Convergence of Graph Laplacians on Manifolds. Ph.D. Dissertation, University of California, Davis. Link: [escholarship.org/uc/item/3nd8w4qd](https://escholarship.org/uc/item/3nd8w4qd).
-  - **Bae, E.**, 2019. Multi-group Analysis using Generalized Additive Kernel Canonical Correlation Analysis. M.S. thesis, Seoul National University. Link: [s-space.snu.ac.kr/handle/10371/161659](https://s-space.snu.ac.kr/handle/10371/161659).
+  - **Bae, E.**, 2026. First-order Asymptotic Theory for Spectral Convergence of Graph Laplacians on Manifolds. Ph.D. Dissertation, University of California, Davis. <span class="web-only"> [[Link]](https://escholarship.org/uc/item/3nd8w4qd) </span>
+  - **Bae, E.**, 2019. Multi-group Analysis using Generalized Additive Kernel Canonical Correlation Analysis. M.S. thesis, Seoul National University. <span class="web-only"> [[Link]](https://s-space.snu.ac.kr/handle/10371/161659) </span>
 <!-- PUBLICATIONS_END -->
 
 ## Teaching Experience
@@ -64,6 +62,16 @@ date: Nov 10, 2026
 ## Professional Service
 
 - Ad Hoc Reviewer, IEEE Transactions on Information Theory, 2026
+
+## Presentations
+
+- Nov 13, 2026. "First-order asymptotic theory for spectral convergence of graph Laplacians on manifolds." *Seminar presentation*, Research Institute of Applied Statistics, Sungkyunkwan University, South Korea.
+<span class="web-only"> [[Link]](https://swb.skku.edu/rias/notice.do?mode=view&articleNo=67776) [[Slides]](presentations/261113_slides_SKKU.pdf)
+</span>
+
+- Sep 23–24, 2024. "Two sample testing for isometry of two manifolds." *Poster presentation*, Foundations of Data Science and Machine Learning at UCD4IDS, University of California, Davis, USA. 
+<span class="web-only"> [[Link]](https://www.math.ucdavis.edu/~deloera/ucd4IDSevent.html) [[Poster]](presentations/240923_poster_UCD.pdf) </span>
+
 
 ## Awards
 
