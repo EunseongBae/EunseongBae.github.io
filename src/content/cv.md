@@ -66,11 +66,11 @@ date: Nov 13, 2026
 ## Presentations
 
 - Nov 13, 2026. "First-order asymptotic theory for spectral convergence of graph Laplacians on manifolds." *Seminar presentation*, Research Institute of Applied Statistics, Sungkyunkwan University, South Korea.
-<span class="web-only"> [[Link]](https://swb.skku.edu/rias/notice.do?mode=view&articleNo=67776) [[Slides]](presentations/261113_slides_SKKU.pdf)
+<span class="web-only"> [[Link]](https://swb.skku.edu/rias/notice.do?mode=view&articleNo=67776) [[Slides]](/presentations/261113_slides_SKKU.pdf)
 </span>
 
 - Sep 23–24, 2024. "Two sample testing for isometry of two manifolds." *Poster presentation*, Foundations of Data Science and Machine Learning at UCD4IDS, University of California, Davis, USA. 
-<span class="web-only"> [[Link]](https://www.math.ucdavis.edu/~deloera/ucd4IDSevent.html) [[Poster]](presentations/240923_poster_UCD.pdf) </span>
+<span class="web-only"> [[Link]](https://www.math.ucdavis.edu/~deloera/ucd4IDSevent.html) [[Poster]](/presentations/240923_poster_UCD.pdf) </span>
 
 
 ## Awards
